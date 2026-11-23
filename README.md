@@ -7,27 +7,6 @@
 | `sibian-gate/` | 思辨开关 | 每条指令动手前先停一下，问清目的、依据和替代方案，并把决策写入台账 |
 | `baihua-polish/` | 白话润色 | 对报告类输出做"去术语"润色：专业词汇首次出现时配上大白话解释，结构与结论不动 |
 
-## 安装（推荐：插件市场）
-
-1. 打开 DSH 的插件市场（插件管理器 → 市场），添加索引地址：
-
-   ```
-   https://raw.githubusercontent.com/YOUR-ACCOUNT/dsh-plugins/main/market-index.json
-   ```
-
-2. 在市场列表里找到「思辨开关」「白话润色」，点安装。
-3. 安装后左侧边栏会出现两个面板图标；白话润色会在每条 AI 回答右下角的操作按钮里加一个「白话解释」。
-
-> 索引地址指向本仓库 `main` 分支的 `market-index.json`，仓库更新后索引自动更新。
-
-## 安装（手动方式）
-
-直接把 `sibian-gate/`、`baihua-polish/` 目录拷到本地后，用 DSH 的「安装本地包」指向对应目录；或把下面任一安装 spec 粘贴给插件管理器：
-
-```
-git+https://github.com/YOUR-ACCOUNT/dsh-plugins.git#6c25c9a612c8925720dcdcf7a973e7a38b4df491&path:/sibian-gate
-git+https://github.com/YOUR-ACCOUNT/dsh-plugins.git#6c25c9a612c8925720dcdcf7a973e7a38b4df491&path:/baihua-polish
-```
 
 ## 使用
 
