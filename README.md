@@ -22,12 +22,12 @@
 
 ## 安装（手动方式）
 
-```bash
-# 思辨开关（状态存于 ~/.dsh/storages/sibian-gate/state.json）
-pnpm add @local/dsh-sibian-gate@git+https://github.com/YOUR-ACCOUNT/dsh-plugins.git#main --config.pnpm.path=sibian-gate
-```
+直接把 `sibian-gate/`、`baihua-polish/` 目录拷到本地后，用 DSH 的「安装本地包」指向对应目录；或把下面任一安装 spec 粘贴给插件管理器：
 
-或直接把 `sibian-gate/`、`baihua-polish/` 目录拷到本地后，用 DSH 的「安装本地包」指向对应目录。
+```
+git+https://github.com/YOUR-ACCOUNT/dsh-plugins.git#6c25c9a612c8925720dcdcf7a973e7a38b4df491&path:/sibian-gate
+git+https://github.com/YOUR-ACCOUNT/dsh-plugins.git#6c25c9a612c8925720dcdcf7a973e7a38b4df491&path:/baihua-polish
+```
 
 ## 使用
 
@@ -46,6 +46,10 @@ pnpm add @local/dsh-sibian-gate@git+https://github.com/YOUR-ACCOUNT/dsh-plugins.
 
 - 两个插件都是 DSH bundle：Host 端 `index.js`（路由/逻辑）+ Web 客户端 `client.js`（面板/按钮），清单见各自 `package.json` 与 `cordis.patch.yml`。
 - 思辨开关的设计讨论见 `docs/00-方案讨论.md`。
+
+## 仓库维护
+
+发布与更新步骤见 `PUBLISH.md`。
 
 ## 许可证
 

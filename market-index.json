@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "思辨与白话工具集",
+    "en": "Reflection & Plain-Language Tools"
+  },
+  "description": {
+    "zh": "学术科研场景的两个 DSH 插件：思辨开关（动手前三问）与白话润色（术语配白话解释）。",
+    "en": "Two DSH plugins for academic workflows: Reflection Gate (three questions before acting) and Plain-Language Polish (jargon explanations)."
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@local/dsh-sibian-gate",
+      "title": {
+        "zh": "思辨开关",
+        "en": "Reflection Gate"
+      },
+      "description": {
+        "zh": "每条指令动手前先停一下：复述指令，问清目的、依据和替代方案，并把决策写入台账。",
+        "en": "Pause before acting: restate the instruction, ask purpose, evidence, and alternatives, then record decisions in a ledger."
+      },
+      "icon": "sibian-gate/icon.svg",
+      "author": "yyc",
+      "homepage": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+      "repository": {
+        "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+        "directory": "sibian-gate"
+      },
+      "metadata": {
+        "keywords": ["思辨", "reflection", "gate", "prompt", "学术"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795425832,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins.git",
+            "commit": "6c25c9a612c8925720dcdcf7a973e7a38b4df491",
+            "path": "sibian-gate"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@local/dsh-baihua-polish",
+      "title": {
+        "zh": "白话润色",
+        "en": "Plain-Language Polish"
+      },
+      "description": {
+        "zh": "对报告类输出做去术语润色：专业词首次出现时配大白话解释，结构与结论不动，数字代码原样保留。",
+        "en": "Post-processes report-style outputs: adds plain-language explanations next to jargon at first occurrence, keeping structure, numbers, and code unchanged."
+      },
+      "icon": "baihua-polish/icon.svg",
+      "author": "yyc",
+      "homepage": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+      "repository": {
+        "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+        "directory": "baihua-polish"
+      },
+      "metadata": {
+        "keywords": ["白话", "润色", "术语", "plain-language", "polish", "学术"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795425832,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins.git",
+            "commit": "6c25c9a612c8925720dcdcf7a973e7a38b4df491",
+            "path": "baihua-polish"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
