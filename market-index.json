@@ -26,9 +26,9 @@
       },
       "icon": "sibian-gate/icon.svg",
       "author": "yyc",
-      "homepage": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+      "homepage": "https://github.com/inspireyc/dsh-plugins",
       "repository": {
-        "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+        "url": "https://github.com/inspireyc/dsh-plugins",
         "directory": "sibian-gate"
       },
       "metadata": {
@@ -42,7 +42,7 @@
           "publishTimestamp": 1795425832,
           "source": {
             "type": "git",
-            "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins.git",
+            "url": "https://github.com/inspireyc/dsh-plugins.git",
             "commit": "6c25c9a612c8925720dcdcf7a973e7a38b4df491",
             "path": "sibian-gate"
           },
@@ -62,9 +62,9 @@
       },
       "icon": "baihua-polish/icon.svg",
       "author": "yyc",
-      "homepage": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+      "homepage": "https://github.com/inspireyc/dsh-plugins",
       "repository": {
-        "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins",
+        "url": "https://github.com/inspireyc/dsh-plugins",
         "directory": "baihua-polish"
       },
       "metadata": {
@@ -78,7 +78,7 @@
           "publishTimestamp": 1795425832,
           "source": {
             "type": "git",
-            "url": "https://github.com/YOUR-ACCOUNT/dsh-plugins.git",
+            "url": "https://github.com/inspireyc/dsh-plugins.git",
             "commit": "6c25c9a612c8925720dcdcf7a973e7a38b4df491",
             "path": "baihua-polish"
           },

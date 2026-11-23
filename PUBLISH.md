@@ -9,12 +9,12 @@
 3. 在本目录执行：
 
    ```bash
-   git remote add origin https://github.com/<你的用户名>/dsh-plugins.git
+   git remote add origin https://github.com/inspireyc/dsh-plugins.git
    git push -u origin main
    ```
 
 4. 验证索引可读：浏览器打开
-   `https://raw.githubusercontent.com/<你的用户名>/dsh-plugins/main/market-index.json`，
+   `https://raw.githubusercontent.com/inspireyc/dsh-plugins/main/market-index.json`，
    能看到 JSON 即为发布成功。
 
 5. 分享给同事：让他们在 DSH 插件市场添加上述索引地址，即可安装两个插件。
