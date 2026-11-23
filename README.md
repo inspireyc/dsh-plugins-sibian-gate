@@ -11,7 +11,10 @@
 ## 使用
 
 - **思辨开关**：侧边栏打开开关后，每次发指令都会先进入"复述 → 三问 → 台账"三步；回答"跳过/直接做/别问了"可跳过。
+- <img width="1021" height="1131" alt="image" src="https://github.com/user-attachments/assets/3379b2ad-af4f-47b2-b7e1-2406cda1f774" />
+
 - **白话润色**：侧边栏面板里打开开关，然后在任意一条 AI 回答右下角点「白话解释」，弹窗里就是配了白话解释的版本，可一键复制。
+<img width="1021" height="875" alt="image" src="https://github.com/user-attachments/assets/63d27762-e438-4004-be57-5d549545e39c" />
 
 ## 配置
 
