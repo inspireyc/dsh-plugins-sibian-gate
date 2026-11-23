@@ -3,9 +3,9 @@
 ## 首次发布到 GitHub
 
 1. 在 GitHub 新建**公开**仓库，建议名 `dsh-plugins`（名字随意，后面按实际改）。
-2. 把本仓库里所有 `YOUR-ACCOUNT` 替换成你的 GitHub 用户名。涉及文件：
-   - `market-index.json`（3 处：两个插件的 source.url + repository.url，homepage 2 处）
-   - `README.md`（3 处：索引地址 1 处、手动 spec 2 处）
+2. 把本仓库里所有 `YOUR-ACCOUNT` 替换成你的 GitHub 用户名。涉及文件与位置：
+   - `market-index.json`：6 处——两个插件的 `source.url`（2）、`repository.url`（2）、`homepage`（2）；
+   - `README.md`：3 处——插件市场索引地址（1）、两条手动安装 spec（2）。
 3. 在本目录执行：
 
    ```bash
